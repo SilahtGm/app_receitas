@@ -40,11 +40,13 @@ import androidx.compose.material3.TextField
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 
 
 // *** Tela SignupScreen ***
 @Composable
-fun SignupScreen(modifier: Modifier = Modifier) {
+fun SignupScreen(navController: NavController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -77,7 +79,7 @@ fun SignupScreen(modifier: Modifier = Modifier) {
 @Composable
 private fun SignupScreenPreview() {
     RecipesTheme {
-        SignupScreen()
+        SignupScreen(rememberNavController())
     }
 
 }

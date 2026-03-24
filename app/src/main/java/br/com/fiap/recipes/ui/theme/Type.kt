@@ -18,10 +18,6 @@ val poppinsFamily = FontFamily(
 )
 
 // Set of Material typography styles to start with
-
-// Criamos diversos estilos de texto, com a família da fonte, estilo, tamanho, espaçamento etc.
-// Aqui padronizamos a fonte poppins de forma que fique semelhante a h1,h2. Ficando facilmente
-// aplicavel
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,
@@ -78,6 +74,19 @@ val Typography = Typography(
         fontSize = 64.sp,
         lineHeight = 68.sp,
         letterSpacing = 0.5.sp
-    )
+    ),
+    displayMedium = TextStyle(
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 64.sp,
+        lineHeight = 68.sp,
+        letterSpacing = 0.5.sp
+    ),
+    displaySmall = TextStyle(
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp,
+        lineHeight = 100.sp,
+        letterSpacing = 0.5.sp
+    ),
 )
-

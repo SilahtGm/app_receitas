@@ -13,4 +13,8 @@
     <string name="person_icon">Person icon</string>
     <string name="your_e_mail">Your e-mail</string>
     <string name="your_password">Your password</string>
+    <string name="please_sign_in_to_continue">Please, sign in to continue</string>
+    <string name="login">Login</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="search_by_recipes">Search by recipes</string>
 </resources>
